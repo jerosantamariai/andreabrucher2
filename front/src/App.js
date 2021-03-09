@@ -10,17 +10,11 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className="col-md-9 offset-3">
-        <div className="row">
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route component={NotFound} />
-          </Switch>
-        </div>
-        <div className="row">
-          <Footer />
-        </div>
-      </div>
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route component={NotFound} />
+      </Switch>
+      <Footer />
     </BrowserRouter>
   );
 }
