@@ -1,0 +1,106 @@
+/* ####### INICIO GENERAL ####### */
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@font-face {
+    font-family: montserratbold;
+    src: url('../src/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: montserratregular;
+    src: url('../src/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+    font-family: montserratmedium;
+    src: url('../src/fonts/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: montserratblack;
+    src: url('../src/fonts/Montserrat-Black.ttf');
+}
+
+/* body {
+    background-color: rgb(199, 199, 199) !important;
+    width: 100vw;
+} */
+
+/* ####### INICIO NAVBAR ####### */
+
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: rgb(40, 71, 110);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    font-family: montserratbold;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(179,24,39);
+    display: block;
+  }
+
+  .sidenav .linkgroup {
+      margin-top: auto !important;
+      padding-bottom: auto !important;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .logocampaña {
+    width: 100%;
+    padding-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ####### INICIO HOME ####### */
+
+
+/* ####### INICIO WELCOME ####### */
+
+.welcome {
+    width: 83.5vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.yomeatravo {
+    height: 100vh;
+}
+
+/* ####### INICIO ZONA 2 ####### */
+
+.section2 {
+    width: 83.5vw;
+    height: 100vh;
+    background-color: seagreen;
+}
+
+/* ####### INICIO ZONA 3 ####### */
+
+.section3 {
+    width: 83.5vw;
+    height: 100vh;
+    background-color: steelblue;
+}
