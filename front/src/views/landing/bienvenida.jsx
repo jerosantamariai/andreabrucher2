@@ -1,12 +1,12 @@
 import React from 'react';
 import YoMeAtrevo from '../../img/yomeatrevo.jpg'
 
-const Inicio = props => {
+const Bienvenida = props => {
     return (
-        <div className="inicio text-center" id="inicio">
+        <div className="bienvenida text-center" id="bienvenida">
             <img src={YoMeAtrevo} alt="yomeatrevo" className="yomeatravo" />
         </div>
     );
 }
 
-export default Inicio;
+export default Bienvenida;

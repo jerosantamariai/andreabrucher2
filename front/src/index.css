@@ -77,9 +77,9 @@
 /* ####### INICIO HOME ####### */
 
 
-/* ####### INICIO INICIO ####### */
+/* ####### INICIO BIENVENIDA ####### */
 
-.inicio {
+.bienvenida {
     /* width: 70vw; */
     height: 100vh;
     background-color: rgb(255, 255, 255);
@@ -89,44 +89,52 @@
     height: 100vh;
 }
 
-/* ####### INICIO ZONA 2 ####### */
+/* ####### INICIO CONOCEME ####### */
 
-.section2 {
+.conoceme {
     /* width: 70vw; */
     height: 100vh;
     background-color: seagreen;
 }
 
-/* ####### INICIO ZONA 3 ####### */
+/* ####### INICIO PRINCIPIOS ####### */
 
-.section3 {
+.principios {
     /* width: 70vw; */
     height: 100vh;
     background-color: steelblue;
 }
 
-/* ####### INICIO ZONA 3 ####### */
+/* ####### INICIO PROGRAMA ####### */
 
-.section4 {
+.programa {
     /* width: 70vw; */
     height: 100vh;
     background-color: wheat;
 }
 
-/* ####### INICIO ZONA 3 ####### */
+/* ####### INICIO PRENSA ####### */
 
-.section5 {
+.prensa {
     /* width: 70vw; */
     height: 100vh;
     background-color: slateblue;
 }
 
-/* ####### INICIO ZONA 3 ####### */
+/* ####### INICIO EN TERRENO ####### */
 
-.section6 {
+.enterreno {
     /* width: 70vw; */
     height: 100vh;
     background-color: firebrick;
+}
+
+/* ####### INICIO RRSS ####### */
+
+.RRSS {
+    /* width: 70vw; */
+    height: 100vh;
+    background-color: khaki;
 }
 
 /* ####### INICIO FOOTER ####### */
