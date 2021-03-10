@@ -1,20 +1,22 @@
 import React from 'react';
-import Section2 from './landing/section2';
-import Section3 from './landing/section3';
-import Inicio from './landing/inicio';
-import Section4 from './landing/section4';
-import Section5 from './landing/section5';
-import Section6 from './landing/section6';
+import Bienvenida from './landing/bienvenida';
+import Conoceme from './landing/conoceme';
+import Principios from './landing/principios';
+import Programa from './landing/programa';
+import Prensa from './landing/prensa';
+import EnTerreno from './landing/enterreno';
+import RRSS from './landing/rrss';
 
 const Home = props => {
     return(
         <div className="home">
-            <Inicio />
-            <Section2 />
-            <Section3 />
-            <Section4 />
-            <Section5 />
-            <Section6 />
+            <Bienvenida />
+            <Conoceme />
+            <Principios />
+            <Programa />
+            <Prensa />
+            <EnTerreno />
+            <RRSS />
         </div>
     );
 }
