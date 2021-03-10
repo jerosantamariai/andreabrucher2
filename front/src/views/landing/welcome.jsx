@@ -3,7 +3,7 @@ import YoMeAtrevo from '../../img/yomeatrevo.jpg'
 
 const Welcome = props => {
     return (
-        <div className="welcome text-center">
+        <div className="welcome text-center" id="welcome">
             <img src={YoMeAtrevo} alt="yomeatrevo" className="yomeatravo" />
         </div>
     );

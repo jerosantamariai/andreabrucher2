@@ -9,7 +9,7 @@ import NotFound from './views/notfound';
 function App() {
   return (
     <BrowserRouter>
-      <div className="row no-gutters g-0">
+      <div className="row no-gutters">
         <div className="col-md-2">
           <Navbar />
         </div>
