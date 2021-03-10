@@ -9,12 +9,18 @@ import NotFound from './views/notfound';
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route component={NotFound} />
-      </Switch>
-      <Footer />
+      <div className="row no-gutters g-0">
+        <div className="col-md-2">
+          <Navbar />
+        </div>
+        <div className="col-md-10">
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route component={NotFound} />
+          </Switch>
+          <Footer />
+        </div>
+      </div>
     </BrowserRouter>
   );
 }
