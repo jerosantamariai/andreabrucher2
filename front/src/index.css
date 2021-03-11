@@ -129,6 +129,16 @@
     background-color: firebrick;
 }
 
+.enterreno #enterrenoimg {
+    width: 300px;
+    height: 300px;
+    display: inline-block !important;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+}
+
 /* ####### INICIO RRSS ####### */
 
 .RRSS {
