@@ -3,6 +3,7 @@ import React from 'react';
 const RRSS = props => {
     return (
         <div className="RRSS no-gutters" id="RRSS" >
+            <h1>RRSS</h1>
             <div className="row rowsocial text-center pt-5 no-gutters">
                 <div className="col-4 twitter">
                     <a className="twitter-timeline" data-width="250" data-height="500" data-theme="light" href="https://twitter.com/andreabrucher?ref_src=twsrc%5Etfw">Tweets by andreabrucher</a>
