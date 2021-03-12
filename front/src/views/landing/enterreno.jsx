@@ -14,7 +14,7 @@ const EnTerreno = props => {
         return y;
     }
     return (
-        <div className="enterreno" id="enterreno" >
+        <div className="enterreno my-4 ml-4" id="enterreno" >
             <h1>EN TERRENO</h1>
             <div className="row text-center no-gutters">
                 <div className="col">

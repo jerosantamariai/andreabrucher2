@@ -4,7 +4,7 @@ import NuevaConcejal from '../../img/breaks/nuevaconcejal.png';
 const Principios = prop => {
     return (
         <div className="principios" id="principios">
-            <div className="row no-gutters">
+            <div className="row no-gutters my-4 ml-4">
                 <div className="col-12">
                     <h1>PRINCIPIOS</h1>
                 </div>
@@ -15,7 +15,7 @@ const Principios = prop => {
                 </div>
             </div>
             <div className="row no-gutters">
-                <div className="col-12">
+                <div className="col-12 text-center">
                     <img src={NuevaConcejal} alt="NuevaConcejal" class="break" />
                 </div>
             </div>

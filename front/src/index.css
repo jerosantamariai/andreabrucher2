@@ -32,10 +32,9 @@
     justify-content: space-between;
   }
 
-/* .break {
-    position: absolute;
-    bottom: 0;
-  } */
+.break {
+    width: 70%;
+  }
 
 /* body {
     background-color: rgb(199, 199, 199) !important;
@@ -102,11 +101,20 @@
 
 /* ####### INICIO CONOCEME ####### */
 
+.conoceme h1 {
+    font-family: montserratbold;
+}
+
 .conoceme {
     /* width: 70vw; */
     min-height: 100vh;
     /* background-color: seagreen; */
     font-family: montserratregular;
+}
+
+.conoceme .freeandrea {
+    width: 90%;
+    height: 90%;
 }
 
 /* ####### INICIO PRINCIPIOS ####### */
@@ -118,6 +126,10 @@
     font-family: montserratregular;
 }
 
+.principios h1 {
+    font-family: montserratbold;
+}
+
 /* ####### INICIO PROGRAMA ####### */
 
 .programa {
@@ -125,6 +137,10 @@
     height: 100vh;
     /* background-color: wheat; */
     font-family: montserratregular;
+}
+
+.programa h1 {
+    font-family: montserratbold;
 }
 
 .programa strong {
@@ -139,12 +155,20 @@
     /* background-color: slateblue; */
 }
 
+.prensa h1 {
+    font-family: montserratbold;
+}
+
 /* ####### INICIO EN TERRENO ####### */
 
 .enterreno {
     /* width: 70vw; */
     min-height: 100vh;
     /* background-color: firebrick; */
+}
+
+.enterreno h1 {
+    font-family: montserratbold;
 }
 
 .enterreno #enterrenoimg {
@@ -163,6 +187,10 @@
     /* width: 70vw; */
     min-height: 100vh;
     /* background-color: khaki; */
+}
+
+.RRSS h1 {
+    font-family: montserratbold;
 }
 
 /* ####### INICIO FOOTER ####### */
