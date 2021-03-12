@@ -1,8 +1,14 @@
 import React from 'react';
+import YoMeAtrevo from '../img/breaks/yomeatrevo.png'
 
 const Footer = props => {
     return (
         <footer>
+            <div className="row no-gutters">
+                <div className="col-12 pb-3 text-center">
+                    <img src={YoMeAtrevo} alt="YoMeAtrevo" />
+                </div>
+            </div>
             <div className="row no-gutters">
                 <div className="col-12 pt-3 text-center">
                     <a href="https://www.facebook.com/andrea.brucherconcejal" target="_blank"><i class="fab fa-facebook fa-2x pr-5"></i></a>

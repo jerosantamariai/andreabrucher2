@@ -10,22 +10,22 @@ const Carousel = props => {
     return (
         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
-                <div className="carousel-item active">
+                <div className="carousel-item active" data-bs-interval="2000">
                     <img src={RecuperemosChile} className="d-block w-100" alt="RecuperemosChile" />
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item" data-bs-interval="1000">
                     <img src={MejorEducacion} className="d-block w-100" alt="MejorEducacion" />
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item" data-bs-interval="1000">
                     <img src={MasSeguridad} className="d-block w-100" alt="MasSeguridad" />
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item" data-bs-interval="1000">
                     <img src={MejorSalud} className="d-block w-100" alt="MejorSalud" />
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item" data-bs-interval="1000">
                     <img src={MejorMovilizacion} className="d-block w-100" alt="MejorMovilizacion" />
                 </div>
-                <div className="carousel-item">
+                <div className="carousel-item" data-bs-interval="1000">
                     <img src={MasAreasVerdes} className="d-block w-100" alt="MasAreasVerdes" />
                 </div>
             </div>
