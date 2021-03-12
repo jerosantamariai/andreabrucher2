@@ -2,7 +2,7 @@ import React from 'react';
 
 const Programa = props => {
     return (
-        <div className="programa" id="programa" >
+        <div className="programa my-4 ml-4" id="programa" >
             <h1>PROGRAMA</h1>
             {/* <div className="row no-gutters">
                 <div className="col-6 offset-3"> */}
