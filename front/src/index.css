@@ -1,10 +1,10 @@
 /* ####### INICIO GENERAL ####### */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     list-style: none;
-}
+} */
 
 @font-face {
     font-family: montserratbold;
@@ -95,6 +95,7 @@
     /* width: 70vw; */
     height: 100vh;
     background-color: seagreen;
+    font-family: montserratregular;
 }
 
 /* ####### INICIO PRINCIPIOS ####### */
@@ -103,6 +104,7 @@
     /* width: 70vw; */
     height: 100vh;
     background-color: steelblue;
+    font-family: montserratregular;
 }
 
 /* ####### INICIO PROGRAMA ####### */
@@ -111,6 +113,11 @@
     /* width: 70vw; */
     height: 100vh;
     background-color: wheat;
+    font-family: montserratregular;
+}
+
+.programa strong {
+    font-family: montserratbold;
 }
 
 /* ####### INICIO PRENSA ####### */
