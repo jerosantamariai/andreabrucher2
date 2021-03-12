@@ -5,10 +5,10 @@ const Footer = props => {
         <footer>
             <div className="row no-gutters">
                 <div className="col-12 pt-3 text-center">
-                    <a href="https://www.facebook.com/andrea.brucherconcejal"><i class="fab fa-facebook fa-2x pr-5"></i></a>
-                    <a href="https://twitter.com/andreabrucher?s=20"><i class="fab fa-twitter fa-2x pr-5"></i></a>
-                    <a href="https://www.instagram.com/andreabrucherconcejal/"><i class="fab fa-instagram fa-2x pr-5"></i></a>
-                    <a href=""><i class="fab fa-youtube fa-2x"></i></a>
+                    <a href="https://www.facebook.com/andrea.brucherconcejal" target="_blank"><i class="fab fa-facebook fa-2x pr-5"></i></a>
+                    <a href="https://twitter.com/andreabrucher?s=20" target="_blank"><i class="fab fa-twitter fa-2x pr-5"></i></a>
+                    <a href="https://www.instagram.com/andreabrucherconcejal/" target="_blank"><i class="fab fa-instagram fa-2x pr-5"></i></a>
+                    <a href="https://www.youtube.com/channel/UCmzzW1X8MXfm5WfhEIubdmQ" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
                 </div>
             </div>
             <div className="row no-gutters">
