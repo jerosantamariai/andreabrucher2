@@ -4,14 +4,14 @@ import FreeAndrea from '../../img/freeandrea.jpeg';
 const Conoceme = prop => {
     return (
         <div className="conoceme no-gutters" id="conoceme">
-            <div className="row no-gutters my-4 ml-4">
+            <div className="row no-gutters pt-5 ml-4">
                 <div className="col-12">
                     <h1>CONÓCEME</h1>
                 </div>
             </div>
-            <div className="conocemecontainer d-flex">
+            <div className="conocemecontainer pt-5 d-flex">
                 <div className="row no-gutters mx-4 text-justify">
-                    <div className="col-7">
+                    <div className="col-12 col-sm-7">
                         <p>Me considero una colaboradora importante de Cristóbal Lira, que cuenta con un proyecto concreto y
 real para el desarrollo de la comuna.</p>
                         <p>Soy Andrea Brucher, tengo 46 años, Ingeniera Comercial con mención en Administracion de Empresas,
@@ -23,17 +23,13 @@ y espontánea.</p>
                         por las necesidades y mejoras, para hacer de Lo Barnechea una comuna de excelencia para que todas
                         las personas tengan oportunidad de estudiar y emprender, donde se respete el estado de derecho y
 la seguridad sea el eje principal para todos los ciudadanos.</p>
-                    </div>
-                    <div className="col-5 text-center my-auto">
-                        <img src={FreeAndrea} alt="freeandrea" className="freeandrea" />
-                    </div>
-                </div>
-            </div>
-            <div className="row no-gutters mb-5 mx-4">
-                <div className="col-12 text-justify">
-                <p>Estoy abierta al dialogo y me pueden contactar a través de mis redes, donde pondré los principios
+                        <p>Estoy abierta al dialogo y me pueden contactar a través de mis redes, donde pondré los principios
                         que me identifican y las propuestas que les traigo para lograr ser tu candidata a concejal en
 estas elecciones del 11 de abril de 2021.</p>
+                    </div>
+                    <div className="col-xs-12 col-md-5 text-center my-auto pt-3">
+                        <img src={FreeAndrea} alt="freeandrea" className="freeandrea" />
+                    </div>
                 </div>
             </div>
         </div>

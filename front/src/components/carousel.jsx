@@ -11,22 +11,22 @@ const Carousel = props => {
         <div id="carouselExampleFade" className="carousel slide carousel-fade" data-bs-ride="carousel">
             <div className="carousel-inner">
                 <div className="carousel-item active" data-bs-interval="2000">
-                    <img src={RecuperemosChile} className="d-block w-100" alt="RecuperemosChile" />
+                    <img src={RecuperemosChile} className=" carouselimg d-block" alt="RecuperemosChile" />
                 </div>
                 <div className="carousel-item" data-bs-interval="1000">
-                    <img src={MejorEducacion} className="d-block w-100" alt="MejorEducacion" />
+                    <img src={MejorEducacion} className="carouselimg d-block" alt="MejorEducacion" />
                 </div>
                 <div className="carousel-item" data-bs-interval="1000">
-                    <img src={MasSeguridad} className="d-block w-100" alt="MasSeguridad" />
+                    <img src={MasSeguridad} className="carouselimg d-block" alt="MasSeguridad" />
                 </div>
                 <div className="carousel-item" data-bs-interval="1000">
-                    <img src={MejorSalud} className="d-block w-100" alt="MejorSalud" />
+                    <img src={MejorSalud} className="carouselimg d-block" alt="MejorSalud" />
                 </div>
                 <div className="carousel-item" data-bs-interval="1000">
-                    <img src={MejorMovilizacion} className="d-block w-100" alt="MejorMovilizacion" />
+                    <img src={MejorMovilizacion} className="carouselimg d-block" alt="MejorMovilizacion" />
                 </div>
                 <div className="carousel-item" data-bs-interval="1000">
-                    <img src={MasAreasVerdes} className="d-block w-100" alt="MasAreasVerdes" />
+                    <img src={MasAreasVerdes} className="carouselimg d-block" alt="MasAreasVerdes" />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
