@@ -10,16 +10,16 @@ function App() {
   return (
     <BrowserRouter>
       <div className="row no-gutters">
-        <div className="col-md-3 g-0">
+        {/* <div className="col-md-3 g-0"> */}
           <Navbar />
-        </div>
-        <div className="col-md-9 g-0">
+        {/* </div>
+        <div className="col-md-9 g-0"> */}
           <Switch>
             <Route exact path="/" component={Home} />
             <Route component={NotFound} />
           </Switch>
           <Footer />
-        </div>
+        {/* </div> */}
       </div>
     </BrowserRouter>
   );

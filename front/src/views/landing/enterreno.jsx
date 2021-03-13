@@ -4,7 +4,7 @@ import FotosTerreno from '../../components/fotosterreno';
 const EnTerreno = props => {
     const [multiplicador, setMultiplicador] = useState(1)
     function mapterreno() {
-        let x = 3 * multiplicador;
+        let x = 4 * multiplicador;
         let y = [];
         for (let i = 0; i < x; i++) {
             if (FotosTerreno[i] !== undefined)
@@ -14,10 +14,10 @@ const EnTerreno = props => {
         return y;
     }
     return (
-        <div className="enterreno my-4 ml-4" id="enterreno" >
+        <div className="enterreno my-0 ml-4" id="enterreno" >
             <h1>EN TERRENO</h1>
             <div className="row text-center no-gutters">
-                <div className="col">
+                <div className="col my-3">
                     {
                         mapterreno()
                     }
