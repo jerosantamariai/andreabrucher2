@@ -2,7 +2,7 @@ import React from 'react';
 
 const Programa = props => {
     return (
-        <div className="programa my-2 ml-4" id="programa" >
+        <div className="programa my-2 text-justify" id="programa" >
             <h1>PROGRAMA</h1>
             {/* <div className="row no-gutters">
                 <div className="col-6 offset-3"> */}
@@ -20,10 +20,10 @@ administracion, tecnologia, control de stock, etc.</li>
 planes de seguridad y control contra la delincuencia en nuestra comuna.</p>
                 <li><strong>EDUCACIÓN</strong></li>
                 <p>Incentivar los planes de ingreso a las Universidades e Institutos con becas entregadas
-por la municipalidad. Addemas, revisar la eficiencia del uso d los recursos publicos en los colegios 
+por la municipalidad. Además, revisar la eficiencia del uso d los recursos publicos en los colegios 
 subvencionados.</p>
                 <li><strong>SALUD</strong></li>
-                <p>Destinar recursos publicos para la entrega de servicios de mejor calidad a los habutantes de la comuna
+                <p>Destinar recursos publicos para la entrega de servicios de mejor calidad a los habitantes de la comuna
 en concreto en convenios con farmacias, ampliar la cobertura de los consultorios, crear nuevos espacios para
 la salud mental de nuestros habitantes.</p>
                 <li><strong>INFRAESTRUCTURA PÚBLICA</strong></li>

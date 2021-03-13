@@ -4,13 +4,13 @@ import FreeAndrea from '../../img/freeandrea.jpeg';
 const Conoceme = prop => {
     return (
         <div className="conoceme no-gutters" id="conoceme">
-            <div className="row no-gutters pt-5 ml-4">
+            <div className="row no-gutters pt-5 ml-5">
                 <div className="col-12">
                     <h1>CONÓCEME</h1>
                 </div>
             </div>
             <div className="conocemecontainer pt-5 d-flex">
-                <div className="row no-gutters mx-4 text-justify">
+                <div className="row no-gutters mx-5 text-justify">
                     <div className="col-12 col-sm-7">
                         <p>Me considero una colaboradora importante de Cristóbal Lira, que cuenta con un proyecto concreto y
 real para el desarrollo de la comuna.</p>
