@@ -6,6 +6,7 @@ import Programa from './landing/programa';
 // import Prensa from './landing/prensa';
 import EnTerreno from './landing/enterreno';
 import RRSS from './landing/rrss';
+import Blogs from './landing/blogs';
 
 const Home = props => {
     return(
@@ -15,6 +16,7 @@ const Home = props => {
             {/* <Principios /> */}
             <Programa />
             {/* <Prensa /> */}
+            <Blogs />
             <EnTerreno />
             <RRSS />
         </div>
