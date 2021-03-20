@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Blog from '../../components/blog.jsx';
 
 const Blogs = props => {
@@ -11,7 +12,7 @@ const Blogs = props => {
                         !!Blog ?
                             Blog.map((blo, i) => {
                                 return (
-                                    <div className="card blogcard col-12 col-sm-4 mx-auto mb-3" key={i}>
+                                    <Link to={"/" + blo.url}><div className="card blogcard col-12 col-sm-4 mx-auto mb-3" key={i}>
                                         <img src={blo.foto} className="card-img-top mx-auto" alt={blo.img}
                                             id="blogimg"
                                         />
@@ -21,6 +22,7 @@ const Blogs = props => {
                                             <small>{blo.fecha}</small>
                                         </div>
                                     </div>
+                                    </Link>
                                 )
                             })
                             : (

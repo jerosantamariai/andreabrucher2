@@ -204,6 +204,20 @@
     object-fit: cover;
 }
 
+/* ####### INICIO SINGLEBLOG ####### */
+
+.singleBlogContainer {
+    /* width: 70vw; */
+    /* height: 100vh; */
+    /* background-color: wheat; */
+    font-family: montserratregular;
+    padding-top: 80px;
+}
+
+.singleBlogContainer h1 {
+    font-family: montserratbold;
+}
+
 /* ####### INICIO EN TERRENO ####### */
 
 .enterreno {
