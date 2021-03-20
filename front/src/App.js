@@ -5,20 +5,22 @@ import Navbar from './components/navbar';
 import injectContext from './store/appContext';
 import Home from './views/home';
 import NotFound from './views/notfound';
+import SingleBlog from './views/singleblog';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="row no-gutters">
         {/* <div className="col-md-3 g-0"> */}
-          <Navbar />
+        <Navbar />
         {/* </div>
         <div className="col-md-9 g-0"> */}
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route component={NotFound} />
-          </Switch>
-          <Footer />
+        <Switch>
+          <Route exact path="/:url" component={SingleBlog} />
+          <Route exact path="/" component={Home} />
+          <Route component={NotFound} />
+        </Switch>
+        <Footer />
         {/* </div> */}
       </div>
     </BrowserRouter>
