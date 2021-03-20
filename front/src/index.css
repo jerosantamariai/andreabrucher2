@@ -227,7 +227,8 @@
 }
 
 .singleBlogContainer .videosize {
-    width: 80vw;
+    width: 50vw;
+    min-height: 50vh;
 }
 
 /* ####### INICIO EN TERRENO ####### */
