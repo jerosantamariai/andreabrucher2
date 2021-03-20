@@ -15,15 +15,15 @@ const SingleBlog = props => {
                                 if (JSON.stringify(blo.url) === JSON.stringify(blogurl)) {
                                     return (
                                         <div className="row card-group mb-3 d-flex justify-content-center text-justify" key={i}>
-                                            <div className="col-3 my-auto">
+                                            <div className="col-12 col-sm-3 my-auto">
                                                 <img src={blo.foto} className="card-img-top" alt={blo.foto} />
                                                 <Link to="/" className="btn btn-info d-flex justify-content-center mt-3">Atrás</Link>
                                             </div>
-                                            <div className="col-9 py-4">
+                                            <div className="col-12 col-sm-9 py-4">
                                                 <h1 className="card-title">{blo.titulo}</h1>
                                                 <h3 className="card-text">{blo.subtitulo}</h3>
                                                 <div className="text-center py-5">
-                                                    <iframe width="560" height="315" src={blo.video} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    <iframe className="videosize" src={blo.video} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                                 </div>
                                                 <p className="card-text">{parse(blo.texto)}</p>
                                                 <p className="card-text text-end py-5">{blo.fecha}</p>

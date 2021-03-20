@@ -43,6 +43,10 @@
     margin-right: auto;
 }
 
+.noDecoration {
+    text-decoration: none;
+}
+
 /* body {
     background-color: rgb(199, 199, 199) !important;
     width: 100vw;
@@ -190,6 +194,10 @@
     font-family: montserratbold;
 }
 
+.blog-container Link {
+    text-decoration: none;
+}
+
 .blog-container .blogcard {
     width: 1000px;
 }
@@ -216,6 +224,10 @@
 
 .singleBlogContainer h1 {
     font-family: montserratbold;
+}
+
+.singleBlogContainer .videosize {
+    width: 80vw;
 }
 
 /* ####### INICIO EN TERRENO ####### */

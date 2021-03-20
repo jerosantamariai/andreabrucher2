@@ -12,7 +12,7 @@ const Blogs = props => {
                         !!Blog ?
                             Blog.map((blo, i) => {
                                 return (
-                                    <Link to={"/" + blo.url}><div className="card blogcard col-12 col-sm-4 mx-auto mb-3" key={i}>
+                                    <div className="card blogcard col-12 col-sm-4 mx-auto mb-3" key={i}>
                                         <img src={blo.foto} className="card-img-top mx-auto" alt={blo.img}
                                             id="blogimg"
                                         />
@@ -21,8 +21,8 @@ const Blogs = props => {
                                             <p className="card-text text-justify">{blo.subtitulo}</p>
                                             <small>{blo.fecha}</small>
                                         </div>
+                                        <Link to={"/" + blo.url} className="btn btn-info">Ver</Link>
                                     </div>
-                                    </Link>
                                 )
                             })
                             : (
