@@ -1,6 +1,16 @@
 import ABconJAK from '../img/blogs/abconjak.png';
+import AndreaconCubillos from '../img/blogs/andreaconcubillos.png';
 
 export default [
+    {
+        "titulo": "Soy una chilena de corazón",
+        "subtitulo": "Patriota y Republicana.",
+        "texto": "Este 11 y 12 de Abril de 2021 te invito a que votes por mi, por que soy de ese 22% de los chilenos como tú que no dejará que los políticos de siempre hagan lo que ellos quieren. Por que soy una nueva cara, real  y con energías, que viene a trabajar por todos los vecinos de Lo Barnechea, POR QUE CHILE ESTÁ PRIMERO, VOTA ANDREA BRUCHER PARA QUE RECUPEREMOS CHILE!<br><br>Cariños<br><br>Andrea Brucher Serrano",
+        "foto": AndreaconCubillos,
+        "video": "https://www.youtube.com/embed/ktaL4ujg51s",
+        "fecha": "Sábado 20 de Marzo de 2021",
+        "url": "soy_una_chilena_de_corazón"
+    },
     {
         "titulo": "Cuento con el apoyo de José Antonio Kast",
         "subtitulo": "En estas elecciones del 11 y 12 de Abril, soy tu candidata a Concejal por Lo Barnechea.",
