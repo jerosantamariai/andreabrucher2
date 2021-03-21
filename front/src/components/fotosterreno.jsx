@@ -24,9 +24,11 @@ import Seguridad1 from '../img/enterreno/seguridad1.jpg';
 import Seguridad2 from '../img/enterreno/seguridad2.jpg';
 
 
-export default [
+const FotosEnTerreno = [
     Arrayan1, Arrayan2, Arrayan3, Arrayan4, Arrayan5, Arrayan6, Lugares1, Lugares2, Lugares3, 
     Lugares4, Lugares5, Lugares6, Lugares7, Lugares8, Lugares9, Manifestion1, Manifestion2, 
     Republicanos1, Republicanos2, Republicanos3, Republicanos4, Republicanos5, Seguridad1, 
     Seguridad2,
 ]
+
+export default FotosEnTerreno;

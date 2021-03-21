@@ -23,7 +23,7 @@ const SingleBlog = props => {
                                                 <h1 className="card-title">{blo.titulo}</h1>
                                                 <h3 className="card-text">{blo.subtitulo}</h3>
                                                 <div className="text-center py-5">
-                                                    <iframe className="videosize" src={blo.video} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    <iframe className="videosize" src={blo.video} frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen title="video"></iframe>
                                                 </div>
                                                 <p className="card-text">{parse(blo.texto)}</p>
                                                 <p className="card-text text-end py-5">{blo.fecha}</p>
@@ -31,6 +31,7 @@ const SingleBlog = props => {
                                         </div>
                                     )
                                 }
+                                return null
                             })
                             : (
                                 <div className="text-center" id="undefined">
