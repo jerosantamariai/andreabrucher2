@@ -1,7 +1,7 @@
 import ABconJAK from '../img/blogs/abconjak.png';
 import AndreaconCubillos from '../img/blogs/andreaconcubillos.png';
 
-export default [
+const Blog = [
     {
         "titulo": "Soy una chilena de corazón",
         "subtitulo": "Patriota y Republicana.",
@@ -77,3 +77,5 @@ export default [
     //     "fecha": "Viernes 19 de Marzo de 2021"
     // },
 ]
+
+export default Blog;

@@ -8,7 +8,7 @@ const EnTerreno = props => {
         let y = [];
         for (let i = 0; i < x; i++) {
             if (FotosTerreno[i] !== undefined)
-                y.push(<img src={FotosTerreno[i]} id="enterrenoimg" />)
+                y.push(<img src={FotosTerreno[i]} id="enterrenoimg" alt="En Terreno" />)
 
         }
         return y;
